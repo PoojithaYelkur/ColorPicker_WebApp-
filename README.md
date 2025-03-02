@@ -17,7 +17,7 @@ A simple interactive **Color Picker Web App** built with **HTML**, **CSS**, and 
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/color-picker-web-app.git
+   git clone https://github.com/PoojithaYelkur/ColorPicker_WebApp-.git
    ```
 2. Navigate to the project directory:
    ```bash
