@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<style>
+    .b1 {
+    background-color: #e0e0e0;
+    border-radius: 12px;
+    height: 80px;
+    width: 80px;
+    margin: 2px;
+    font-size: 15px;
+}
+
+.b2 {
+    background-color: #6fcf97;
+    border-radius: 12px;
+    height: 80px;
+    width: 80px;
+    margin: 2px;
+}
+
+.b3 {
+    background-color: #56ccf2;
+    border-radius: 12px;
+    height: 80px;
+    width: 80px;
+    margin: 2px;
+}
+
+.b4 {
+    background-color: #bb6bd9;
+    border-radius: 12px;
+    height: 80px;
+    width: 80px;
+    margin: 2px;
+}
+
+.colorp {
+    text-align: center;
+    font-weight: bold;
+}
+
+.backg {
+    text-align: center;
+    color: white;
+    background-color: #222222;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: open Sans;
+}
+
+.para {
+    text-align: center;
+    color: #222222;
+    font-family: open Sans;
+    font-size: 15px;
+    margin: 2px;
+}
+</style>
+<script>
+    function manipulateStyles1() {
+    document.getElementById("selectedColorHexCode").textContent = "#e0e0e0";
+    document.getElementById("colorPickerContainer").style.backgroundColor = "#e0e0e0";
+}
+
+function manipulateStyles2() {
+    document.getElementById("selectedColorHexCode").textContent = "#6fcf97";
+    document.getElementById("colorPickerContainer").style.backgroundColor = "#6fcf97";
+}
+
+function manipulateStyles3() {
+    document.getElementById("selectedColorHexCode").textContent = "#56ccf2";
+    document.getElementById("colorPickerContainer").style.backgroundColor = "#56ccf2";
+}
+
+function manipulateStyles4() {
+    document.getElementById("selectedColorHexCode").textContent = "#bb6bd9";
+    document.getElementById("colorPickerContainer").style.backgroundColor = "#bb6bd9";
+}
+
+</script>
+<body>
+    
+    <div id="colorPickerContainer">
+        <br>
+        <br>
+        <br>
+        <br>
+        <p class="para">Try clicking on one of the colors below to change the background color of this page!</p>
+        <br>
+        <h1 class="colorp">Color Picker</h1>
+        <div class="d-flex justify-content-center">
+            <button onclick="manipulateStyles1()" class="b1" id="button1">Gainsboro</button>
+            <button onclick="manipulateStyles2()" class="b2" id="button2">Green-cyan</button>
+            <button onclick="manipulateStyles3()" class="b3" id="button3">Cyan</button>
+            <button onclick="manipulateStyles4()" class="b4" id="button4">Soft violet</button>
+        </div>
+        <p class="backg">Background Color : <span id="selectedColorHexCode">#fffff</span></p>
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    </div>
+</body>
+
+</html>
