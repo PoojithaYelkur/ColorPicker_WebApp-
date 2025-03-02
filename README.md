@@ -21,7 +21,7 @@ A simple interactive **Color Picker Web App** built with **HTML**, **CSS**, and 
    ```
 2. Navigate to the project directory:
    ```bash
-   cd color-picker-web-app
+   cd ColorPicker_WebApp-
    ```
 3. Open `index.html` in your browser.
 
